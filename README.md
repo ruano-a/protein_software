@@ -4,3 +4,5 @@ End of studies project (EIP, Epitech Innovative Project) done in group during th
 
 A code editor, first named Protein then Lantern, coded in Java, allowing to graft homemade modules.
 These modules can access an API.
+
+The master branch might be updated, for the origin version, check the branch "origin_version"

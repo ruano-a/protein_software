@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modules.Site.Controller.ModuleListController">
+   <children>
+      <Label fx:id="titleLabel" text="Modules">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefViewportHeight="10.0" prefViewportWidth="100.0" VBox.vgrow="ALWAYS">
+         <content>
+            <FlowPane fx:id="modulesLister" columnHalignment="CENTER" VBox.vgrow="ALWAYS" />
+         </content>
+      </ScrollPane>
+      <Accordion>
+        <panes>
+          <TitledPane fx:id="searchPane" animated="false" text="Rechercher">
+               <content>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <TextField fx:id="searchInput" promptText="ex: &quot;Terminal&quot;" />
+                        <Button fx:id="searchButton" mnemonicParsing="false" text="Rechercher">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</VBox>

@@ -1,0 +1,144 @@
+.workspace-manager{
+}
+
+.workspace-manager .workspace-splitter{
+}
+
+.workspace-manager .split-pane-divider{
+    -fx-background-color: -divider-color;
+    -fx-border-width: 0px;
+    -fx-background-insets: 0px;
+    -fx-padding: 1px;
+}
+
+.workspace{
+    -fx-background-color: -dark-primary-color;
+    -fx-border-insets: 0px;
+    -fx-pref-width: inherit;
+    -fx-pref-height: inherit;
+}
+
+.workspace .code-area{
+    -fx-background-color: -primary-color;
+    -fx-padding: 3px 0 0 0;
+    -fx-font-family: "Consolas";
+}
+
+.workspace .code-area .text{
+    -fx-font-size: 14px;
+}
+
+.workspace .code-area .text.lineno{
+    -fx-fill: #9E9E9E;
+}
+
+
+.workspace .code-area .lineno{
+    -fx-background-color: -primary-color;
+}
+
+.workspace .code-area .caret{
+    -fx-stroke: white;
+}
+
+.workspace .tab-list{
+    -fx-background-color: -dark-primary-color;
+    -fx-pref-height: 40px;
+}
+
+.tab-list .list{
+    -fx-background-color: inherit;
+    -fx-background-insets: 0px;
+}
+
+.tab-list .list.only-one .tab-title{
+    -fx-pref-width: 10000px;
+}
+
+.tab-list .button{
+    -fx-background-color: inherit;
+    -fx-background-radius: 0px;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-min-width: 40px;
+    -fx-max-width: 40px;
+}
+
+.tab-title{
+    -fx-background-color: inherit;
+    -fx-opacity: 70%;
+    -fx-min-width: 50px;
+    -fx-max-height: 40px;
+    -fx-pref-width: 300px;
+    -fx-alignment: center-left;
+}
+
+.tab-title.active{
+    -fx-background-color: -primary-color;
+    -fx-opacity: 100%;
+}
+
+.tab-title .text{
+    -fx-text-fill: -text-color;
+    -fx-alignment: center;
+}
+
+.tab-title.active .text{
+    -fx-fill: -text-color;
+}
+
+.tab-title .close{
+    -fx-background-color: inherit;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+    -fx-min-width: 30px;
+    -fx-pref-width: 30px;
+}
+
+.atcp-popup{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-padding: 1 2;
+    -fx-background-radius: 2px;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.25), 4, 0.0, 0, 1);
+}
+
+.atcp-popup .button{
+    -fx-text-fill: black;
+    -fx-alignment: center-left;
+    -fx-background-insets: 0px;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-font-family: "Roboto";
+}
+
+.atcp-popup .button.active{
+    -fx-background-color: -grey-400;
+}
+
+.context-menu{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-padding: 1 2;
+    -fx-background-radius: 2px;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.25), 4, 0.0, 0, 1);
+}
+
+.context-menu .menu-item{
+    -fx-alignment: center-left;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+    -fx-padding: 6 12;
+    -fx-font-family: "Roboto";
+}
+
+.context-menu .menu-item .label{
+    -fx-text-fill: black;
+}
+
+.context-menu .menu-item:hover .label{
+    -fx-text-fill: black;
+}
+.context-menu .menu-item:hover{
+    -fx-background-color: -grey-400;
+}

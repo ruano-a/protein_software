@@ -1,0 +1,99 @@
+<Dictionary type="lang" lang="php">
+  <Group name="object">
+    <word>abstract</word>
+    <word>class</word>
+    <word>extends</word>
+    <word>implements</word>
+    <word>include</word>
+    <word>include_once</word>
+    <word>interface</word>
+    <word>namespace</word>
+    <word>require</word>
+    <word>require_once</word>
+    <word>self</word>
+    <word>this</word>
+    <word>use</word>
+  </Group>
+  <Group name="type">
+    <word>array</word>
+    <word>bool</word>
+    <word>boolean</word>
+    <word>callable</word>
+    <word>double</word>
+    <word>float</word>
+    <word>function</word>
+    <word>int</word>
+    <word>integer</word>
+    <word>string</word>
+    <word>trait</word>
+    <word>var</word>
+    <word>void</word>
+  </Group>
+  <Group name="state">
+    <word>const</word>
+    <word>false</word>
+    <word>final</word>
+    <word>global</word>
+    <word>new</word>
+    <word>null</word>
+    <word>static</word>
+    <word>true</word>
+  </Group>
+  <Group name="modifier">
+    <word>private</word>
+    <word>protected</word>
+    <word>public</word>
+  </Group>
+  <Group name="connexion">
+    <word>and</word>
+    <word>break</word>
+    <word>case</word>
+    <word>default</word>
+    <word>else</word>
+    <word>elseif</word>
+    <word>endif</word>
+    <word>endswitch</word>
+    <word>if</word>
+    <word>or</word>
+    <word>return</word>
+    <word>switch</word>
+    <word>xor</word>
+    <word>yield</word>
+  </Group>
+  <Group name="exception">
+    <word>catch</word>
+    <word>finally</word>
+    <word>throw</word>
+    <word>try</word>
+  </Group>
+  <Group name="loop">
+    <word>as</word>
+    <word>continue</word>
+    <word>do</word>
+    <word>endfor</word>
+    <word>endforeach</word>
+    <word>endwhile</word>
+    <word>for</word>
+    <word>foreach</word>
+    <word>goto</word>
+    <word>while</word>
+  </Group>
+  <Group name="functions">
+    <word>clone</word>
+    <word>declare</word>
+    <word>die</word>
+    <word>echo</word>
+    <word>empty</word>
+    <word>enddeclare</word>
+    <word>eval</word>
+    <word>exit</word>
+    <word>isset</word>
+    <word>list</word>
+    <word>print</word>
+    <word>unset</word>
+  </Group>
+  <Group name="operators">
+    <word>instanceof</word>
+    <word>insteadof</word>
+  </Group>
+</Dictionary>

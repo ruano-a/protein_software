@@ -1,0 +1,79 @@
+.notif-container{
+    -fx-padding: 0px;
+    -fx-background-insets: 0px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 0px;
+}
+
+.notif-layout{
+    -fx-padding: 0px;
+    -fx-background-insets: 0px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 150px;
+    -fx-max-width: 400px;
+    -fx-max-height: 250px;
+
+    -fx-font-family: "Roboto";
+
+    -fx-background-color: #313131;
+}
+
+.state-layout{
+    -fx-pref-height: inherit;
+    -fx-pref-width: 40px;
+    -fx-min-width: 40px;
+}
+
+.state-layout.success{
+    -fx-background-color: #4daf50;
+}
+
+.state-layout.info{
+    -fx-background-color: #3a81c3;
+}
+
+.state-layout.error{
+    -fx-background-color: #e9453a;
+}
+
+.content-layout{
+    -fx-pref-width: inherit;
+    -fx-pref-height: inherit;
+}
+
+.content-layout .title-bar{
+    -fx-pref-height: 40px;
+    -fx-min-height: 40px;
+    -fx-pref-width: inherit;
+    -fx-background-color: #212121;
+}
+
+.content-layout .title-bar .title-text{
+    -fx-pref-height: inherit;
+    -fx-pref-width: inherit;
+    -fx-min-width: 0px;
+    -fx-padding: 0 0 0 5px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.content-layout .title-bar .close-button{
+    -fx-pref-height: inherit;
+    -fx-min-width: 40px;
+    -fx-background-color: inherit;
+    -fx-background-radius: 0px;
+    -fx-background-insets: 0px;
+    -fx-text-fill: #9E9E9E;
+}
+
+.content-layout .message{
+    -fx-padding: 5px;
+    -fx-pref-width: inherit;
+    -fx-pref-height: inherit;
+    -fx-alignment: top-left;
+    -fx-text-overrun: word-ellipsis;
+    -fx-wrap-text: true;
+    -fx-font-size: 14px;
+    -fx-text-fill: #9E9E9E;
+}

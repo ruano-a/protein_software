@@ -1,0 +1,43 @@
+.text{
+    -fx-fill: white;
+}
+
+.tags{
+	-fx-fill: #29B6F6;
+	-fx-font-weight: bold;
+}
+
+.attributes{
+	-fx-fill: yellowgreen;
+	-fx-font-weight: bold;
+}
+
+.function {
+	-fx-fill: #3F51B5;
+    -fx-font-weight: bold;
+}
+
+.semicolon {
+	-fx-fill: black;
+	-fx-font-weight: bold;
+}
+.paren {
+	-fx-fill: firebrick;
+	-fx-font-weight: bold;
+}
+.bracket {
+	-fx-fill: darkgreen;
+	-fx-font-weight: bold;
+}
+.brace {
+	-fx-fill: teal;
+	-fx-font-weight: bold;
+}
+.string {
+	-fx-fill: LimeGreen;
+	-fx-font-weight: bold;
+}
+.comment {
+	-fx-fill: cadetblue;
+	-fx-font-weight: bold;
+}

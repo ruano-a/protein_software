@@ -1,0 +1,55 @@
+<Dictionary type="lang_utils">
+  <Group name="fr">
+    <sentence code="workspace">Espace de travail</sentence>
+    <sentence code="split-down">Scindez vers le bas</sentence>
+    <sentence code="split-up">Scindez vers le haut</sentence>
+    <sentence code="split-left">Scindez vers la gauche</sentence>
+    <sentence code="split-right">Scindez vers la droite</sentence>
+    <sentence code="change-direction">Changer de direction</sentence>
+    <sentence code="new-tab">Nouvel onglet</sentence>
+    <sentence code="close-tab">Fermer l'onglet</sentence>
+    <sentence code="close-other">Fermer les autres onglets</sentence>
+    <sentence code="close-all">Fermer tout les onglets</sentence>
+    <sentence code="select-next-tab">Selectionner l'onglet suivant</sentence>
+    <sentence code="select-prev-tab">Selectionner l'onglet précédent</sentence>
+    <sentence code="close">Fermer</sentence>
+    <sentence code="file">Fichier</sentence>
+    <sentence code="new-file">Nouveau fichier</sentence>
+    <sentence code="open-file">Ouvrir un fichier</sentence>
+    <sentence code="open-directory">Ouvrir un dossier</sentence>
+    <sentence code="save-file">Enregistrer le fichier</sentence>
+    <sentence code="save-file-as">Enregistrer le fichier sous...</sentence>
+
+    <sentence code="connection">Connexion</sentence>
+    <sentence code="password">Mot de passe</sentence>
+    <sentence code="register">Inscription</sentence>
+    <sentence code="identifier">Identifiant</sentence>
+  </Group>
+  <Group name="en">
+    <sentence code="workspace">Workspace</sentence>
+    <sentence code="split-down">Split down</sentence>
+    <sentence code="split-up">Split up</sentence>
+    <sentence code="split-left">Split left</sentence>
+    <sentence code="split-right">Split right</sentence>
+    <sentence code="change-direction">Change direction</sentence>
+    <sentence code="new-tab">New tab</sentence>
+    <sentence code="close-tab">Close tab</sentence>
+    <sentence code="close-other">Close other tabs</sentence>
+    <sentence code="close-all">Close all tabs</sentence>
+    <sentence code="select-next-tab">Select next tab</sentence>
+    <sentence code="select-prev-tab">Select previous tab</sentence>
+    <sentence code="close">Close</sentence>
+    <sentence code="file">File</sentence>
+    <sentence code="new-file">New file</sentence>
+    <sentence code="open-file">Open file</sentence>
+    <sentence code="open-directory">Open directory</sentence>
+    <sentence code="save-file">Save file</sentence>
+    <sentence code="save-file-as">Save file as...</sentence>
+
+    <sentence code="connection">Connection</sentence>
+    <sentence code="password">Password</sentence>
+    <sentence code="register">Register</sentence>
+    <sentence code="identifier">Identifier</sentence>
+
+  </Group>
+</Dictionary>

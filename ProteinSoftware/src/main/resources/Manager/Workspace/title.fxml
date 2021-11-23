@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="tab" fx:controller="Manager.Workspacetmp.Controller.TitleController" stylesheets="@../../Styles/workspacetmp.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="titleButton" mnemonicParsing="false" styleClass="title" stylesheets="@../../Styles/workspacetmp.css" text="title" HBox.hgrow="ALWAYS" />
+      <Button fx:id="closeButton" mnemonicParsing="false" styleClass="close-button" text="x" />
+   </children>
+</HBox>

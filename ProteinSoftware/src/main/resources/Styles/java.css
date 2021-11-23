@@ -1,0 +1,59 @@
+.text{
+	-fx-fill: white;
+}
+
+.connexion, .loop, .state {
+	-fx-fill: #4DD0E1;
+}
+
+.object, .modifier{
+	-fx-fill: #BA68C8;
+}
+
+.exception{
+	-fx-fill: #f44336;
+}
+
+.type {
+	-fx-fill: #FFD54F;
+}
+
+.function {
+	-fx-fill: #3F51B5;
+}
+
+.string {
+	-fx-fill: #81C784;
+	-fx-font-style: italic;
+}
+
+.singlelinecomment {
+	-fx-fill: lightgray;
+}
+
+.multilinecomment {
+	-fx-fill: lightgray;
+	-fx-font-style: italic;
+}
+
+.semicolon {
+	-fx-fill: #FF8A65;
+	-fx-font-weight: bold;
+}
+
+.paren {
+	-fx-fill: white;
+}
+
+.bracket {
+	-fx-fill: white;
+}
+
+.brace {
+	-fx-fill: white;
+}
+
+.wordfind {
+	-fx-background-color: #00ACC1;
+	-fx-fill: #4527A0;
+}

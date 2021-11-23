@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modules.Site.Controller.ModuleController">
+   <children>
+      <ImageView fx:id="moduleImage" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="moduleLabel" text="Name" textAlignment="CENTER" wrapText="true" />
+      <Hyperlink fx:id="moduleLink" contentDisplay="CENTER" text="Télécharger" textAlignment="CENTER" wrapText="true" />
+   </children>
+</VBox>

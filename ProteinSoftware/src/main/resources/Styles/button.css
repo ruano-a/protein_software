@@ -1,0 +1,11 @@
+.md-button.success{
+    -fx-background-color: #4daf50;
+}
+
+.md-button.info{
+    -fx-background-color: #3a81c3;
+}
+
+.md-button.error{
+    -fx-background-color: #e9453a;
+}

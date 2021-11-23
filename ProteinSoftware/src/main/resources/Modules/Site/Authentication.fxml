@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modules.Site.Controller.AuthenticationController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <TextField fx:id="emailForCoInput" promptText="e-mail" />
+            <PasswordField fx:id="passwordForCoInput" promptText="Mot de passe" />
+                <Button fx:id="connectButton" mnemonicParsing="false" text="Connexion" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <TextField fx:id="idInput" promptText="Identifiant" />
+                <TextField fx:id="emailForRegInput" promptText="e-mail" />
+            <PasswordField fx:id="passwordForRegInput" promptText="Mot de passe" />
+                <Button fx:id="regButton" mnemonicParsing="false" text="Inscription" />
+            </children>
+        </HBox>
+        <Button fx:id="moduleButton" mnemonicParsing="false" text="Modules" />
+        <TextArea fx:id="resultsText" editable="false" prefHeight="200.0" prefWidth="200.0" promptText="Résultats" />
+    </children>
+</VBox>

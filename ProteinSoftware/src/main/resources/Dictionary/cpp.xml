@@ -1,0 +1,77 @@
+<Dictionary type="lang" lang="cpp">
+  <Group name="object">
+    <word>class</word>
+    <word>namespace</word>
+    <word>this</word>
+    <word>using</word>
+  </Group>
+  <Group name="type">
+    <word>bool</word>
+    <word>char</word>
+    <word>char16_t</word>
+    <word>char32_t</word>
+    <word>double</word>
+    <word>enum</word>
+    <word>float</word>
+    <word>int</word>
+    <word>long</word>
+    <word>short</word>
+    <word>signed</word>
+    <word>struct</word>
+    <word>unsigned</word>
+    <word>void</word>
+    <word>wchar_t</word>
+  </Group>
+  <Group name="state">
+    <word>const</word>
+    <word>explicit</word>
+    <word>export</word>
+    <word>extern</word>
+    <word>false</word>
+    <word>static</word>
+    <word>true</word>
+    <word>typedef</word>
+    <word>typeid</word>
+    <word>typename</word>
+    <word>virtual</word>
+    <word>volatile</word>
+  </Group>
+  <Group name="modifier">
+    <word>private</word>
+    <word>protected</word>
+    <word>public</word>
+  </Group>
+  <Group name="connexion">
+    <word>break</word>
+    <word>case</word>
+    <word>default</word>
+    <word>else</word>
+    <word>if</word>
+    <word>return</word>
+    <word>switch</word>
+  </Group>
+  <Group name="exception">
+    <word>catch</word>
+    <word>finally</word>
+    <word>throw</word>
+    <word>try</word>
+  </Group>
+  <Group name="loop">
+    <word>continue</word>
+    <word>do</word>
+    <word>for</word>
+    <word>goto</word>
+    <word>while</word>
+  </Group>
+  <Group name="functions">
+    <word>const_cast</word>
+    <word>delete</word>
+    <word>dynamic_cast</word>
+    <word>new</word>
+    <word>reinterpret_cast</word>
+    <word>static_cast</word>
+  </Group>
+  <Group name="operators">
+    <word>sizeof</word>
+  </Group>
+</Dictionary>

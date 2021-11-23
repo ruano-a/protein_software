@@ -1,0 +1,92 @@
+<Dictionary type="lang" lang="javascript">
+  <Group name="object">
+    <word>abstract</word>
+    <word>class</word>
+    <word>extends</word>
+    <word>implements</word>
+    <word>interface</word>
+    <word>package</word>
+    <word>this</word>
+  </Group>
+  <Group name="type">
+    <word>Array</word>
+    <word>boolean</word>
+    <word>byte</word>
+    <word>char</word>
+    <word>Date</word>
+    <word>double</word>
+    <word>enum</word>
+    <word>float</word>
+    <word>function</word>
+    <word>int</word>
+    <word>let</word>
+    <word>long</word>
+    <word>Number</word>
+    <word>Object</word>
+    <word>short</word>
+    <word>String</word>
+    <word>var</word>
+    <word>void</word>
+  </Group>
+  <Group name="state">
+    <word>const</word>
+    <word>false</word>
+    <word>final</word>
+    <word>native</word>
+    <word>new</word>
+    <word>null</word>
+    <word>static</word>
+    <word>synchronized</word>
+    <word>transient</word>
+    <word>true</word>
+    <word>undefined</word>
+    <word>volatile</word>
+    <word>with</word>
+  </Group>
+  <Group name="modifier">
+    <word>private</word>
+    <word>protected</word>
+    <word>public</word>
+  </Group>
+  <Group name="connexion">
+    <word>break</word>
+    <word>case</word>
+    <word>default</word>
+    <word>else</word>
+    <word>if</word>
+    <word>return</word>
+    <word>switch</word>
+    <word>yield</word>
+  </Group>
+  <Group name="exception">
+    <word>catch</word>
+    <word>finally</word>
+    <word>throw</word>
+    <word>throws</word>
+    <word>try</word>
+  </Group>
+  <Group name="loop">
+    <word>continue</word>
+    <word>do</word>
+    <word>for</word>
+    <word>goto</word>
+    <word>while</word>
+  </Group>
+  <Group name="functions">
+    <word>debugger</word>
+    <word>delete</word>
+    <word>eval</word>
+    <word>export</word>
+    <word>import</word>
+    <word>super</word>
+  </Group>
+  <Group name="operators">
+    <word>instanceof</word>
+    <word>in</word>
+    <word>typeof</word>
+  </Group>
+  <Group name="specialObjects">
+    <word>arguments</word>
+    <word>Infinity</word>
+  </Group>
+</Dictionary>

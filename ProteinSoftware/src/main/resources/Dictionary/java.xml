@@ -1,0 +1,69 @@
+<Dictionary type="lang" lang="java">
+  <Group name="object">
+    <word>abstract</word>
+    <word>class</word>
+    <word>enum</word>
+    <word>extends</word>
+    <word>implements</word>
+    <word>import</word>
+    <word>interface</word>
+    <word>native</word>
+    <word>package</word>
+    <word>super</word>
+    <word>this</word>
+  </Group>
+  <Group name="type">
+    <word>boolean</word>
+    <word>byte</word>
+    <word>char</word>
+    <word>double</word>
+    <word>float</word>
+    <word>int</word>
+    <word>long</word>
+    <word>short</word>
+    <word>void</word>
+  </Group>
+  <Group name="state">
+    <word>const</word>
+    <word>false</word>
+    <word>final</word>
+    <word>new</word>
+    <word>null</word>
+    <word>static</word>
+    <word>strictfp</word>
+    <word>transient</word>
+    <word>true</word>
+    <word>volatile</word>
+  </Group>
+  <Group name="modifier">
+    <word>private</word>
+    <word>protected</word>
+    <word>public</word>
+  </Group>
+  <Group name="connexion">
+    <word>assert</word>
+    <word>break</word>
+    <word>case</word>
+    <word>default</word>
+    <word>else</word>
+    <word>if</word>
+    <word>instanceof</word>
+    <word>return</word>
+    <word>switch</word>
+    <word>synchronized</word>
+  </Group>
+  <Group name="exception">
+    <word>catch</word>
+    <word>finally</word>
+    <word>throw</word>
+    <word>throws</word>
+    <word>try</word>
+  </Group>
+  <Group name="loop">
+    <word>continue</word>
+    <word>do</word>
+    <word>for</word>
+    <word>goto</word>
+    <word>while</word>
+</Group>
+</Dictionary>

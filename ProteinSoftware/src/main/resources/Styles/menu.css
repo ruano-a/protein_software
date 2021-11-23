@@ -1,0 +1,32 @@
+.modules-list{
+    -fx-background-color: -dark-primary-color;
+    -fx-fill-height: true;
+    -fx-pref-width: 50px;
+    -fx-min-width: 50px;
+    -fx-border-width: 0 2px 0 0;
+    -fx-border-color: linear-gradient(-dark-primary-color 2%, -dark-divider-color 12%, -dark-divider-color 88%, -dark-primary-color 98%);
+}
+
+.modules-list .module-button{
+    -fx-background-color: inherit;
+    -fx-text-fill: -text-color;
+    -fx-padding: 1 2;
+    -fx-min-height: 50px;
+    -fx-effect: none;
+    -fx-pref-width: inherit;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+}
+
+.modules-list .module-button:pressed{
+    -fx-effect: none;
+}
+
+.modules-list .module-button.active{
+    -fx-background-color: -dark-primary-color;
+}
+
+.module-menu{
+    -fx-background-color: -dark-primary-color;
+    -fx-padding: 0 5px 0 0;
+}

@@ -1,0 +1,104 @@
+.splitter {
+    -fx-padding: 0px;
+    -fx-background-insets: 0px;
+    -fx-border-width: 0px;
+}
+
+.workspace {
+    /*-fx-background-color: -dark-primary-color;*/
+    -fx-background-color: #263238;
+    -fx-min-width: 0px;
+    -fx-min-height: 0px;
+    -fx-pref-width: Infinity;
+    -fx-pref-height: Infinity;
+    -fx-max-width: Infinity;
+    -fx-max-height: Infinity;
+}
+
+.workspace .lister-layout {
+    -fx-min-height: 50px;
+    -fx-background-color: inherit;
+}
+
+.workspace .content-layout {
+    -fx-background-color: inherit;
+    -fx-pref-height: 1px;
+}
+
+.workspace .content-layout .content {
+    /*-fx-background-color: -primary-color;*/
+    -fx-background-color: #37474F;
+}
+
+.lister-layout .lister {
+    -fx-background-color: inherit;
+}
+
+.lister-layout .action-button {
+    -fx-background-color: inherit;
+    -fx-background-insets: none;
+    -fx-border-color: none;
+    -fx-text-fill: white;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-min-width: 50px;
+    -fx-pref-height: 50px;
+}
+
+.action-button:hover {
+    -fx-background-color: blue;
+}
+
+.action-button:focused {
+    -fx-background-color: red;
+}
+
+.action-button:armed {
+    -fx-background-color: yellow;
+}
+
+.tab {
+    -fx-background-color: inherit;
+    -fx-min-width: 0px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+    -fx-pref-height: 50px;
+    -fx-alignment: center-left;
+}
+
+.tab.active {
+    /*-fx-background-color: -primary-color;*/
+    -fx-background-color: #37474F;
+}
+
+.tab .title {
+    -fx-background-color: inherit;
+    -fx-background-insets: none;
+    -fx-border-color: none;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: white;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 50px;
+}
+
+.tab .close-button {
+    -fx-background-color: inherit;
+    -fx-background-insets: none;
+    -fx-border-color: none;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-pref-height: 50px;
+}
+
+.tab.right-over {
+    -fx-border-width: 0px 3px 0px 0px;
+    -fx-border-color: #37474F;
+    /*-fx-border-color: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.3));*/
+}
+
+.tab.left-over {
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: #37474F;
+    /*-fx-border-color: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.3));*/
+}

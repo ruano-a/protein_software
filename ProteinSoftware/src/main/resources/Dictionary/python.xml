@@ -1,0 +1,49 @@
+<Dictionary type="lang" lang="python">
+    <Group name="type">
+        <word>boolean</word>
+        <word>char</word>
+        <word>class</word>
+        <word>double</word>
+        <word>float</word>
+        <word>int</word>
+        <word>void</word>
+        <word>long</word>
+        <word>short</word>
+    </Group>
+    <Group name="loop">
+        <word>for</word>
+        <word>while</word>
+    </Group>
+    <Group name="branchement">
+        <word>and</word>
+        <word>elif</word>
+        <word>else</word>
+        <word>from</word>
+        <word>if</word>
+        <word>in</word>
+        <word>is</word>
+        <word>lambda</word>
+        <word>not</word>
+        <word>or</word>
+    </Group>
+    <Group name="exception">
+        <word>try</word>
+        <word>finally</word>
+        <word>except</word>
+    </Group>
+    <Group name="statement">
+        <word>assert</word>
+        <word>break</word>
+        <word>continue</word>
+        <word>def</word>
+        <word>del</word>
+        <word>exec</word>
+        <word>global</word>
+        <word>import</word>
+        <word>pass</word>
+        <word>print</word>
+        <word>raise</word>
+        <word>return</word>
+        <word>yield</word>
+    </Group>
+</Dictionary>
